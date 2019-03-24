@@ -9,13 +9,13 @@ import org.testng.annotations.BeforeTest;
 public class Config {
 
 	
-	protected WebDriver driver=null;
+	public WebDriver driver=null;
 	
 	@BeforeTest
 	public void beforeTestStart(){
 		System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"\\drivers\\chromedriver.exe");
 		// init the chrome driver
-		WebDriver driver = new ChromeDriver();
+		driver = new ChromeDriver();
 		// lets go to facebook.com
 		driver.get("http://www.facebook.com");
 		// maximize the window 

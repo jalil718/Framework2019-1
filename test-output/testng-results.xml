@@ -1,53 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="8297" started-at="2019-03-24T18:22:32Z" finished-at="2019-03-24T18:22:40Z">
+  <suite name="Default suite" duration-ms="8879" started-at="2019-03-24T18:25:51Z" finished-at="2019-03-24T18:26:00Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="8297" started-at="2019-03-24T18:22:32Z" finished-at="2019-03-24T18:22:40Z">
-      <class name="test.facebook.login.LoginFacebook">
-        <test-method status="PASS" signature="beforeTestStart()[pri:0, instance:test.facebook.login.LoginFacebook@548b7f67]" name="beforeTestStart" is-config="true" duration-ms="8237" started-at="2019-03-24T14:22:32Z" finished-at="2019-03-24T14:22:40Z">
+    <test name="Default test" duration-ms="8879" started-at="2019-03-24T18:25:51Z" finished-at="2019-03-24T18:26:00Z">
+      <class name="test.facebook.login.FacebookEmailPass">
+        <test-method status="PASS" signature="beforeTestStart()[pri:0, instance:test.facebook.login.FacebookEmailPass@548b7f67]" name="beforeTestStart" is-config="true" duration-ms="8429" started-at="2019-03-24T14:25:51Z" finished-at="2019-03-24T14:26:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTestStart -->
-        <test-method status="FAIL" signature="testFacebookSignup()[pri:0, instance:test.facebook.login.LoginFacebook@548b7f67]" name="testFacebookSignup" duration-ms="19" started-at="2019-03-24T14:22:40Z" finished-at="2019-03-24T14:22:40Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at test.facebook.login.LoginFacebook.testFacebookSignup(LoginFacebook.java:22)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method status="PASS" signature="testFacebookEmailPass()[pri:0, instance:test.facebook.login.FacebookEmailPass@548b7f67]" name="testFacebookEmailPass" duration-ms="424" started-at="2019-03-24T14:26:00Z" finished-at="2019-03-24T14:26:00Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testFacebookSignup -->
-      </class> <!-- test.facebook.login.LoginFacebook -->
+        </test-method> <!-- testFacebookEmailPass -->
+      </class> <!-- test.facebook.login.FacebookEmailPass -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
