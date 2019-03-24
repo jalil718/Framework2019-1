@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="7461" started-at="2019-03-24T17:25:16Z" finished-at="2019-03-24T17:25:23Z">
+  <suite name="Default suite" duration-ms="8297" started-at="2019-03-24T18:22:32Z" finished-at="2019-03-24T18:22:40Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="7461" started-at="2019-03-24T17:25:16Z" finished-at="2019-03-24T17:25:23Z">
-      <class name="test.facebook.login.FacebookEmailPass">
-        <test-method status="PASS" signature="beforeTestStart()[pri:0, instance:test.facebook.login.FacebookEmailPass@548b7f67]" name="beforeTestStart" is-config="true" duration-ms="7424" started-at="2019-03-24T13:25:16Z" finished-at="2019-03-24T13:25:23Z">
+    <test name="Default test" duration-ms="8297" started-at="2019-03-24T18:22:32Z" finished-at="2019-03-24T18:22:40Z">
+      <class name="test.facebook.login.LoginFacebook">
+        <test-method status="PASS" signature="beforeTestStart()[pri:0, instance:test.facebook.login.LoginFacebook@548b7f67]" name="beforeTestStart" is-config="true" duration-ms="8237" started-at="2019-03-24T14:22:32Z" finished-at="2019-03-24T14:22:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTestStart -->
-        <test-method status="FAIL" signature="testFacebookEmailPass()[pri:0, instance:test.facebook.login.FacebookEmailPass@548b7f67]" name="testFacebookEmailPass" duration-ms="11" started-at="2019-03-24T13:25:23Z" finished-at="2019-03-24T13:25:23Z">
+        <test-method status="FAIL" signature="testFacebookSignup()[pri:0, instance:test.facebook.login.LoginFacebook@548b7f67]" name="testFacebookSignup" duration-ms="19" started-at="2019-03-24T14:22:40Z" finished-at="2019-03-24T14:22:40Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
-	at test.facebook.login.FacebookEmailPass.testFacebookEmailPass(FacebookEmailPass.java:22)
+	at test.facebook.login.LoginFacebook.testFacebookSignup(LoginFacebook.java:22)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -46,8 +46,8 @@
           </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testFacebookEmailPass -->
-      </class> <!-- test.facebook.login.FacebookEmailPass -->
+        </test-method> <!-- testFacebookSignup -->
+      </class> <!-- test.facebook.login.LoginFacebook -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

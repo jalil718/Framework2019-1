@@ -9,11 +9,11 @@ import org.testng.annotations.BeforeTest;
 public class Config {
 
 	
-	public WebDriver driver;
+	protected WebDriver driver=null;
 	
 	@BeforeTest
 	public void beforeTestStart(){
-		System.setProperty("webdriver.chrome.driver","C:/Users/TalentTEK/Documents/GitHub/Framework2019/drivers/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"\\drivers\\chromedriver.exe");
 		// init the chrome driver
 		WebDriver driver = new ChromeDriver();
 		// lets go to facebook.com

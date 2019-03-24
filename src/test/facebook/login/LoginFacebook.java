@@ -5,11 +5,10 @@ import org.testng.annotations.Test;
 
 import base.Config;
 
-
 public class LoginFacebook extends Config{
 
 
-	@Test // test annotion - without this annotation, you can't execute any tes
+	@Test // test annotion - without this annotation, you can not execute any test
 	public void testFacebookSignup(){
 
 		// Locators
