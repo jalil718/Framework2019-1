@@ -9,7 +9,7 @@ import org.testng.annotations.BeforeTest;
 public class Config {
 
 	
-	public WebDriver driver=null;
+	public WebDriver driver;
 	
 	@BeforeTest
 	public void beforeTestStart(){
