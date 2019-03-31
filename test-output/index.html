@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\TalentTEK\AppData\Local\Temp\testng-eclipse-1363312016\testng-customsuite.xml</span>
+                    <span>C:\Users\TalentTEK\AppData\Local\Temp\testng-eclipse--1831940587\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -102,12 +102,12 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="test.facebook.login.AnnotationPrec" hash-for-method="my2Test">my2Test</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="test.facebook.login.FacebookEmailPass" hash-for-method="testFacebookEmailPass">testFacebookEmailPass</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="test.facebook.login.AnnotationPrec" hash-for-method="myTest">myTest</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="test.facebook.login.LoginFacebook" hash-for-method="testFacebookSignup">testFacebookSignup</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -125,21 +125,29 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">test.facebook.login.AnnotationPrec</span>
+              <span class="class-name">test.facebook.login.LoginFacebook</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="my2Test">
-                  </a> <!-- my2Test -->
-                  <span class="method-name">my2Test</span>
+                  <a name="testFacebookSignup">
+                  </a> <!-- testFacebookSignup -->
+                  <span class="method-name">testFacebookSignup</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.facebook.login.FacebookEmailPass</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="myTest">
-                  </a> <!-- myTest -->
-                  <span class="method-name">myTest</span>
+                  <a name="testFacebookEmailPass">
+                  </a> <!-- testFacebookEmailPass -->
+                  <span class="method-name">testFacebookEmailPass</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -147,7 +155,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\TalentTEK\AppData\Local\Temp\testng-eclipse-1363312016\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\TalentTEK\AppData\Local\Temp\testng-eclipse--1831940587\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -156,7 +164,8 @@
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
   &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;test.facebook.login.AnnotationPrec&quot;/&gt;
+      &lt;class name=&quot;test.facebook.login.FacebookEmailPass&quot;/&gt;
+      &lt;class name=&quot;test.facebook.login.LoginFacebook&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -170,7 +179,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Default test (1 class)</span>
+                <span class="test-name">Default test (2 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -198,18 +207,18 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'my2Test')
-data.setCell(0, 2, 'test.facebook.login.AnnotationPrec')
-data.setCell(0, 3, 7);
+data.setCell(0, 1, 'testFacebookEmailPass')
+data.setCell(0, 2, 'test.facebook.login.FacebookEmailPass')
+data.setCell(0, 3, 460);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'myTest')
-data.setCell(1, 2, 'test.facebook.login.AnnotationPrec')
-data.setCell(1, 3, 6);
+data.setCell(1, 1, 'testFacebookSignup')
+data.setCell(1, 2, 'test.facebook.login.LoginFacebook')
+data.setCell(1, 3, 333);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 13 ms</span>
+              <span class="suite-total-time">Total running time: 793 ms</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -235,47 +244,34 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">test.facebook.login.AnnotationPrec</div> <!-- chronological-class-name -->
-              <div class="configuration-suite before">
-                <span class="method-name">b4suite</span>
+              <div class="chronological-class-name">test.facebook.login.FacebookEmailPass</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeEachTest</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- configuration-suite before -->
-              <div class="configuration-test before">
-                <span class="method-name">beforeTest</span>
-                <span class="method-start">15 ms</span>
-              </div> <!-- configuration-test before -->
-              <div class="configuration-method before">
-                <span class="method-name">beforeMethod</span>
-                <span class="method-start">30 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">my2Test</span>
-                <span class="method-start">30 ms</span>
+                <span class="method-name">testFacebookEmailPass</span>
+                <span class="method-start">8123 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">afterMethod</span>
-                <span class="method-start">39 ms</span>
+                <span class="method-name">afterEachTest</span>
+                <span class="method-start">8585 ms</span>
               </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.facebook.login.LoginFacebook</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">beforeMethod</span>
-                <span class="method-start">41 ms</span>
+                <span class="method-name">beforeEachTest</span>
+                <span class="method-start">10729 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">myTest</span>
-                <span class="method-start">42 ms</span>
+                <span class="method-name">testFacebookSignup</span>
+                <span class="method-start">17750 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">afterMethod</span>
-                <span class="method-start">51 ms</span>
+                <span class="method-name">afterEachTest</span>
+                <span class="method-start">18086 ms</span>
               </div> <!-- configuration-method after -->
-              <div class="configuration-test after">
-                <span class="method-name">afterTest</span>
-                <span class="method-start">54 ms</span>
-              </div> <!-- configuration-test after -->
-              <div class="configuration-suite after">
-                <span class="method-name">afterSuite</span>
-                <span class="method-start">147 ms</span>
-              </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

@@ -1,4 +1,4 @@
-package test.facebook.login;
+package prec;
 
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
