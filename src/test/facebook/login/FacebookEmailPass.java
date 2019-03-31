@@ -7,20 +7,19 @@ import base.Config;
 import locators.facebookLocators;
 import values.fbValues;
 
-public class LoginFacebook extends Config{
-
+public class FacebookEmailPass extends Config{
+	
 	facebookLocators 	fbl = new facebookLocators();
 	fbValues			fbv = new fbValues();
-	@Test // test annotion - without this annotation, you can not execute any test
-	public void testFacebookSignup(){
 
+	@Test // test annotion - without this annotation, you can't execute any tes
+	public void testFacebookEmailPass(){
 
 		// Enter firstName
-		driver.findElement(By.xpath(fbl.fnLoc)).sendKeys(fbv.fnVal);
+		driver.findElement(By.xpath(fbl.email)).sendKeys(fbv.emailVal);
 		// Enter lastName
-		driver.findElement(By.xpath(fbl.lnLoc)).sendKeys(fbv.lnVal);
+		driver.findElement(By.xpath(fbl.pass)).sendKeys(fbv.passVal);
 	}
-
 
 
 }
