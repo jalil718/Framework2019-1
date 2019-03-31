@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\TalentTEK\AppData\Local\Temp\testng-eclipse--1507470859\testng-customsuite.xml</span>
+                    <span>C:\Users\TalentTEK\AppData\Local\Temp\testng-eclipse--216323069\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods,  1 skipped,  3 passed</span>
+                    <span class="method-stats">5 methods,  1 skipped,  4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title skipped">Skipped methods</span>
@@ -117,6 +117,11 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="prec.PriorityPrec" hash-for-method="changePass">changePass</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="prec.PriorityPrec" hash-for-method="dontRunThisTest">dontRunThisTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -200,6 +205,13 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
+                  <a name="dontRunThisTest">
+                  </a> <!-- dontRunThisTest -->
+                  <span class="method-name">dontRunThisTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="logInTest">
                   </a> <!-- logInTest -->
                   <span class="method-name">logInTest</span>
@@ -217,7 +229,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\TalentTEK\AppData\Local\Temp\testng-eclipse--1507470859\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\TalentTEK\AppData\Local\Temp\testng-eclipse--216323069\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -266,28 +278,32 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(5);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'logInTest')
 data.setCell(0, 2, 'prec.PriorityPrec')
-data.setCell(0, 3, 32);
+data.setCell(0, 3, 24);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'changePass')
+data.setCell(1, 1, 'goinToSkipTest')
 data.setCell(1, 2, 'prec.PriorityPrec')
-data.setCell(1, 3, 5);
+data.setCell(1, 3, 7);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'logOutTest')
+data.setCell(2, 1, 'changePass')
 data.setCell(2, 2, 'prec.PriorityPrec')
 data.setCell(2, 3, 4);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'goinToSkipTest')
+data.setCell(3, 1, 'dontRunThisTest')
 data.setCell(3, 2, 'prec.PriorityPrec')
-data.setCell(3, 3, 3);
+data.setCell(3, 3, 4);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'logOutTest')
+data.setCell(4, 2, 'prec.PriorityPrec')
+data.setCell(4, 3, 3);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 44 ms</span>
+              <span class="suite-total-time">Total running time: 42 ms</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -320,15 +336,19 @@ return data;
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">changePass</span>
-                <span class="method-start">38 ms</span>
+                <span class="method-start">30 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">logOutTest</span>
-                <span class="method-start">47 ms</span>
+                <span class="method-start">38 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">goinToSkipTest</span>
-                <span class="method-start">54 ms</span>
+                <span class="method-start">45 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dontRunThisTest</span>
+                <span class="method-start">55 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

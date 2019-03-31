@@ -27,4 +27,9 @@ public class PriorityPrec {
 		throw new SkipException ("SF-1: requirement changed so skipping it");
 	}
 	
+	@Test (enabled=false,priority=5)
+	public void dontRunThisTest(){
+		System.out.println ("do not run this test");
+	}
+	
 }
