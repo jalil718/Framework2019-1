@@ -1,32 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="1" failed="0" ignored="0" total="5" passed="4">
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="98" started-at="2019-03-31T16:07:20Z" finished-at="2019-03-31T16:07:20Z">
+  <suite name="Default suite" duration-ms="58" started-at="2019-03-31T16:21:29Z" finished-at="2019-03-31T16:21:29Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="98" started-at="2019-03-31T16:07:20Z" finished-at="2019-03-31T16:07:20Z">
-      <class name="prec.PriorityPrec">
-        <test-method status="PASS" signature="logInTest()[pri:1, instance:prec.PriorityPrec@458ad742]" name="logInTest" duration-ms="24" started-at="2019-03-31T12:07:20Z" finished-at="2019-03-31T12:07:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logInTest -->
-        <test-method status="PASS" signature="changePass()[pri:2, instance:prec.PriorityPrec@458ad742]" name="changePass" duration-ms="4" started-at="2019-03-31T12:07:20Z" finished-at="2019-03-31T12:07:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- changePass -->
-        <test-method status="PASS" signature="logOutTest()[pri:3, instance:prec.PriorityPrec@458ad742]" name="logOutTest" duration-ms="3" started-at="2019-03-31T12:07:20Z" finished-at="2019-03-31T12:07:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logOutTest -->
-        <test-method status="SKIP" signature="goinToSkipTest()[pri:4, instance:prec.PriorityPrec@458ad742]" name="goinToSkipTest" duration-ms="7" started-at="2019-03-31T12:07:20Z" finished-at="2019-03-31T12:07:20Z">
-          <exception class="org.testng.SkipException">
+    <test name="Default test" duration-ms="58" started-at="2019-03-31T16:21:29Z" finished-at="2019-03-31T16:21:29Z">
+      <class name="prec.PrecticeAssert">
+        <test-method status="FAIL" signature="tryCatchTest()[pri:0, instance:prec.PrecticeAssert@2669b199]" name="tryCatchTest" duration-ms="20" started-at="2019-03-31T12:21:29Z" finished-at="2019-03-31T12:21:29Z">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[SF-1: requirement changed so skipping it]]>
+              <![CDATA[expected [google] but found [google1]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.testng.SkipException: SF-1: requirement changed so skipping it
-	at prec.PriorityPrec.goinToSkipTest(PriorityPrec.java:27)
+              <![CDATA[java.lang.AssertionError: expected [google] but found [google1]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:189)
+	at org.testng.Assert.assertEquals(Assert.java:199)
+	at prec.PrecticeAssert.tryCatchTest(PrecticeAssert.java:12)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -54,15 +48,11 @@
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.testng.SkipException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- goinToSkipTest -->
-        <test-method status="PASS" signature="dontRunThisTest()[pri:5, instance:prec.PriorityPrec@458ad742]" name="dontRunThisTest" duration-ms="4" started-at="2019-03-31T12:07:20Z" finished-at="2019-03-31T12:07:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- dontRunThisTest -->
-      </class> <!-- prec.PriorityPrec -->
+        </test-method> <!-- tryCatchTest -->
+      </class> <!-- prec.PrecticeAssert -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

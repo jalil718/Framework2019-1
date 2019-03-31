@@ -4,24 +4,21 @@ import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
 import base.Config;
+import locators.facebookLocators;
+import values.fbValues;
 
 public class LoginFacebook extends Config{
 
-
+	facebookLocators 	fbl = new facebookLocators();
+	fbValues			fbv = new fbValues();
 	@Test // test annotion - without this annotation, you can not execute any test
 	public void testFacebookSignup(){
 
-		// Locators
-		String fnLoc = "//input[@name='firstname']";
-		String lnLoc = "//input[@name='lastname']";
-		// Values
-		String fnVal = "fnTest";
-		String lnVal = "lnTest";
 
 		// Enter firstName
-		driver.findElement(By.xpath(fnLoc)).sendKeys(fnVal);
+		driver.findElement(By.xpath(fbl.fnLoc)).sendKeys(fbv.fnVal);
 		// Enter lastName
-		driver.findElement(By.xpath(lnLoc)).sendKeys(lnVal);
+		driver.findElement(By.xpath(fbl.lnLoc)).sendKeys(fbv.lnVal);
 	}
 
 
