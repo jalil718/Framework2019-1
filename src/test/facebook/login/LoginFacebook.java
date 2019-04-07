@@ -11,7 +11,9 @@ public class LoginFacebook extends Config{
 
 	facebookLocators 	fbl = new facebookLocators();
 	fbValues			fbv = new fbValues();
-	@Test // test annotion - without this annotation, you can not execute any test
+	
+	
+	@Test (groups = { "smoke" })
 	public void testFacebookSignup(){
 
 

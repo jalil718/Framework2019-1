@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 
 public class AnnotationPrec {
 
-	@Test 
+	@Test (groups = { "smoke" })
 	public void myTest(){
 		System.out.println(" TC1: My First test");
 		System.out.println(" TC1: selenium webdriver and java code");
