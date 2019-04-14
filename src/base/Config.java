@@ -28,6 +28,6 @@ public class Config {
 	
 	@AfterMethod
 	public void afterEachTest(){
-		driver.close();
+		//driver.close();
 	}
 }
