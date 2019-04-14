@@ -8,5 +8,7 @@ public class facebookLocators {
 
 	public String fnLoc = "//input[@name='firstname']";
 	public String lnLoc = "//input[@name='lastname']";
+	
+	public String signUpText = "//*[@id='content']/div/div/div/div/div[2]/h2";
 
 }

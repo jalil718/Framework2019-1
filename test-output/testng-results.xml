@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="10415" started-at="2019-04-14T18:12:38Z" finished-at="2019-04-14T18:12:48Z">
+  <suite name="Default suite" duration-ms="8616" started-at="2019-04-14T18:56:39Z" finished-at="2019-04-14T18:56:48Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="10415" started-at="2019-04-14T18:12:38Z" finished-at="2019-04-14T18:12:48Z">
+    <test name="Default test" duration-ms="8616" started-at="2019-04-14T18:56:39Z" finished-at="2019-04-14T18:56:48Z">
       <class name="prec.ReadFromXl">
-        <test-method status="PASS" signature="beforeEachTest()[pri:0, instance:prec.ReadFromXl@5034c75a]" name="beforeEachTest" is-config="true" duration-ms="9645" started-at="2019-04-14T14:12:38Z" finished-at="2019-04-14T14:12:47Z">
+        <test-method status="PASS" signature="beforeEachTest()[pri:0, instance:prec.ReadFromXl@5bd03f44]" name="beforeEachTest" is-config="true" duration-ms="8065" started-at="2019-04-14T14:56:39Z" finished-at="2019-04-14T14:56:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeEachTest -->
-        <test-method status="PASS" signature="readingFromXL()[pri:0, instance:prec.ReadFromXl@5034c75a]" name="readingFromXL" duration-ms="724" started-at="2019-04-14T14:12:47Z" finished-at="2019-04-14T14:12:48Z">
+        <test-method status="PASS" signature="testReadFromXL()[pri:0, instance:prec.ReadFromXl@5bd03f44]" name="testReadFromXL" duration-ms="520" started-at="2019-04-14T14:56:47Z" finished-at="2019-04-14T14:56:47Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- readingFromXL -->
-        <test-method status="PASS" signature="afterEachTest()[pri:0, instance:prec.ReadFromXl@5034c75a]" name="afterEachTest" is-config="true" duration-ms="0" started-at="2019-04-14T14:12:48Z" finished-at="2019-04-14T14:12:48Z">
+        </test-method> <!-- testReadFromXL -->
+        <test-method status="PASS" signature="afterEachTest()[pri:0, instance:prec.ReadFromXl@5bd03f44]" name="afterEachTest" is-config="true" duration-ms="1" started-at="2019-04-14T14:56:47Z" finished-at="2019-04-14T14:56:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTest -->

@@ -1,18 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [GROUP TEST]">
-  <test name="Test in Chrome(failed)">
-    <groups>
-      <run>
-        <include name="smoke"/>
-      </run>
-    </groups>
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="test.facebook.login.LoginFacebook">
+      <class name="prec.ReadFromXl">
         <methods>
-          <include name="testFacebookSignup"/>
+          <include name="testReadFromXL"/>
+          <include name="beforeEachTest"/>
+          <include name="afterEachTest"/>
         </methods>
-      </class> <!-- test.facebook.login.LoginFacebook -->
+      </class> <!-- prec.ReadFromXl -->
     </classes>
-  </test> <!-- Test in Chrome(failed) -->
-</suite> <!-- Failed suite [GROUP TEST] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

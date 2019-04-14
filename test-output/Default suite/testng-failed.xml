@@ -3,11 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="prec.PrecticeAssert">
+      <class name="prec.ReadFromXl">
         <methods>
-          <include name="tryCatchTest"/>
+          <include name="testReadFromXL"/>
+          <include name="beforeEachTest"/>
+          <include name="afterEachTest"/>
         </methods>
-      </class> <!-- prec.PrecticeAssert -->
+      </class> <!-- prec.ReadFromXl -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
