@@ -25,7 +25,6 @@ public class ReadFromXl extends Config{
 		// Copy the text from fb website and enter in excel file
 		String getTextValue = driver.findElement(By.xpath(fl.signUpText)).getText();
 		System.out.println("Text from fb website : "+ getTextValue);
-		//driver.findElement(By.xpath(fl.fnLoc)).sendKeys(xl.setCellData("fb", "Values", 4, getTextValue));
 		xl.setCellData("facebook", "TestData", 4, getTextValue);
 	}
 	
